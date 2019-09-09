@@ -1,0 +1,35 @@
+1571.96
+
+
+salesforce token
+Username: nico.martens1985@gmail.com
+Security token (case-sensitive): hrpqObI7yjUJiIn2CTlbWzMd
+
+
+
+ Could not find artifact com.mulesoft.training:templates:jar:1.0.0 in anypoint-exchange (https://maven.anypoint.mulesoft.com/api/v1/maven) 
+ 
+ 	<groupId>com.mulesoft.training</groupId>
+	<artifactId>templates</artifactId>
+    <version>1.0.0</version>
+    <packaging>mule-application</packaging>
+	
+mvn install:install-file -Dfile=module06-templates.jar -DgroupId=com.mulesoft.training -DartifactId=templates -Dversion=1.0.0 -Dpackaging=jar
+
+
+jdbc:derby://mudb.learn.mulesoft.com:3306/training
+
+·       Host: mudb.learn.mulesoft.com
+
+·       Port: 3306
+
+·       User: mule
+
+·       Password: mule
+
+·       Database: training
+
+·       Table: flights_customers
+
+
+mysql://mule:mule@mudb.learn.mulesoft.com:3306/training
