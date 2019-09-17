@@ -1,0 +1,6 @@
+http:
+  port: "8081"
+sfdc:
+  username: "nico.martens1985@gmail.com"
+  password: "Pc@t3900!"
+  token: "hrpqObI7yjUJiIn2CTlbWzMd"
